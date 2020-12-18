@@ -1,0 +1,150 @@
+body{
+  /* to change the font*/
+  font-family: Arial, Helvetica, sans-serif;
+	background-color:white;  /* to change the background colour*/
+	background-color:#ffffff;
+}
+
+
+.footer {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   width: 80%;
+   background-color: #33B0CC;
+}
+
+
+
+/*
+ to change the shape of the logout botton
+#logout{
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid white;
+  padding: 15px 25px;
+  background-color: #ff3333;
+  color: black;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+#logout:hover{
+  box-shadow: inset 0 0 7px 5px #ddd;
+  background-color: #ff4d4d;
+}
+*/
+
+
+
+
+
+th{
+text-align: center;
+padding-top: 12px;
+padding-bottom: 12px;
+background-color: #33B0CC;
+color: white;
+}
+
+td{
+  width: 50%;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-of-type(odd) {
+  background: #ebf7fa;
+}
+
+tr:hover {background-color:  #85d0e0;}
+
+
+h1{
+	text-align: center;
+}
+
+/*formatting for input fields*/
+input{
+  display: inline-block;
+  width: 33%;
+}
+
+button{
+  width: 10%;
+  background-color: #85d0e0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text], select {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 18px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 18px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 18px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #85d0e0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=radio] {
+}
+
+
+div{
+	text-align: center;
+}
+
+div.form {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+
+}
+.scrollable {
+  height: 250px;
+  width: 100%;
+  overflow: auto;
+}
+
+
+.rightcol .alarm {

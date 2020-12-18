@@ -1,0 +1,1 @@
+Modify config.php to your database requirements, and you're good to go. 
